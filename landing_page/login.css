@@ -1,0 +1,60 @@
+input {
+  background-image: none;
+  border: none;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  max-width: 30em;
+}
+#login{
+    border-radius: 2em;
+    width: 30%;
+}
+@media only screen and (max-width: 768px) {
+  #login {
+      width: 80%;
+  }
+}
+
+#login h2 {
+  background: #1F204C;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1em 1em;
+  margin: 0;
+  border-radius: 1em 1em 0 0;
+}
+
+#login fieldset {
+  background: #fff;
+  padding: 2em 2em;
+  border-radius: 0 0 2em 2em;
+}
+
+#login fieldset p {
+  color: #777;
+  margin-bottom: 1em;
+}
+
+#login fieldset p:last-child {
+  margin-bottom: 0;
+}
+
+#login fieldset input {
+  border-radius: 0.3em;
+}
+
+#login fieldset input[type="email"], #login fieldset input[type="password"] {
+  background: #eee;
+  color: #777;
+  padding: 4px 10px;
+  width: 100%;
+}
+
+
+.parent {
+  display: flex;
+  justify-content: center;
+}
